@@ -3,5 +3,11 @@
     "nome": "Thiago",
     "email": "thiago@gmail.com",
     "saldo": "100"
+  },
+  {
+    "nome": "Thiago1",
+    "email": "thiago1@gmail.com",
+    "dados": {},
+    "hash": "$2b$10$kxd.q8SDn2IVNm9mA6Fi.OC5OASGgNp3KpDiPAcMySiquCCWh4AO."
   }
 ]
