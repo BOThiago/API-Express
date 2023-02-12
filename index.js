@@ -1,20 +1,17 @@
 const express = require('express')
-const fs = require("fs");
+const autenticacao = require("./routes/login_criar");
 const app = express ();
 const router = require("./routes/login_criar");
 
 app.use(express.json());
 app.use(router);
 
-const usuarios = [
-    { nome: "Jancer", idade: 19},
-    { nome: "Aline", idade: 24},
-    { nome: "Maria", idade: 25},
-    { nome: "Eduardo", idade: 22},
-];
-
-app.get("/", (req, res) => {
-    res.status(200).send("OK");
+app.get("/", autenticacao, (req, res) => {
+    res.status(200).send({
+        nome: req.user.nome,
+        email: req.user.email,
+        dados: req.user.dados,
+    });
 });
 
 app.listen(3000, () => {

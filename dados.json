@@ -1,13 +1,18 @@
 [
   {
+    "id": 11125102,
     "nome": "Thiago",
     "email": "thiago@gmail.com",
-    "saldo": "100"
+    "dados": {},
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTExMjUxMDIsImlhdCI6MTY3NjI0MTI5NH0.n3yyACoXVYedPBc0cKILbE7CfqoAqn2gWtcO7QLXA1c",
+    "hash": "$2b$10$eK8i00cJH.MYAjyubxvpHO.eN.vdngAuDNalYO.rymWOTy4BKQV0G"
   },
   {
+    "id": 780619297,
     "nome": "Thiago1",
-    "email": "thiago1@gmail.com",
+    "email": "a@gmail.com",
     "dados": {},
-    "hash": "$2b$10$kxd.q8SDn2IVNm9mA6Fi.OC5OASGgNp3KpDiPAcMySiquCCWh4AO."
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NzgwNjE5Mjk3LCJpYXQiOjE2NzYyNDMzMDB9.GWDVPLW_EPf66DNxJLnGsSGD5JIVnWRVz6Xd6hqTx-M",
+    "hash": "$2b$10$lZdOAjkZYzwMU1M1EwlIQ.oo.YMalpVKU0iUbF9BTbycLUbTnX6SW"
   }
 ]
